@@ -1,45 +1,82 @@
-# Naija Street Slang Dataset Project
-Welcome to the Naija Street Slangs Dataset (NSSD) project! This is an open-source initiative aimed at collecting, curating, and expanding a dataset of Nigerian street street slangs and their meanings and application. 
+# Naija Street Slang Dataset Project 🇳🇬🔥
 
-## Goal
+Welcome to the **Naija Street Slangs Dataset (NSSD)** project! This is an open-source initiative aimed at collecting, curating, and expanding a dataset of Nigerian street slangs, their meanings, and real-life usage.
 
-My goal is to build and train models that can understand and generate a typical Naija (Nigerian) street slang, a vital part of the Nigerian street culture and everyday communication.
+---
 
-## How You Can Contribute
-We believe that everyone, regardless of coding knowledge, can contribute to this project! Whether you're a native speaker of Igbo, a language enthusiast, or someone who just loves slang, we welcome your input. Here’s how you can contribute:
+## 🎯 Goal
 
-### Add New Slangs
-If you know a street Igbo slang that's not already in the dataset, feel free to add it! We accept slangs with their meanings and usage examples.
+The goal of this project is to build and train models that can understand and generate typical **Naija (Nigerian) street slang**, which is a vital part of Nigerian street culture and everyday communication.
 
-### Verify Existing Slangs
-Help us ensure the accuracy of the dataset by reviewing slangs that others have added. You can suggest corrections or improvements if needed.
+This dataset includes:
+- Nigerian Pidgin
+- Nigerian English
+- Code-mixed slangs (Pidgin + English + Igbo/Yoruba/Hausa influence)
 
-### Suggest New Categories
-If you think there are categories (like 'Greetings', 'Insults', 'Compliments', etc.) that need to be included, let us know!
+---
 
-## How to Contribute (No Coding Required)
+## 🤝 How You Can Contribute
 
-For those who don't know how to code or use GitHub, we’ve made it super simple for you to contribute:
+I believe that everyone, regardless of coding knowledge, can contribute to this project. Whether you're a Nigerian, a language enthusiast, or someone who just loves slang, your input is welcome.
+
+### ✅ Add New Slangs
+If you know a Naija street slang that’s not already in the dataset, feel free to add it. We accept slangs with their meanings and usage examples.
+
+### ✅ Verify Existing Slangs
+Help ensure the accuracy of the dataset by reviewing slangs that others have added. You can suggest corrections or improvements where needed.
+
+### ✅ Suggest New Categories
+If you think categories (like **Greetings**, **Insults**, **Compliments**, etc.) should be included, let us know.
+
+---
+
+## 📝 How to Contribute (No Coding Required)
+
+For those who don’t know how to code or use GitHub, we’ve made it easy to contribute.
 
 ### Option 1: Use the Online Form (Easy Way)
-We’ve set up an easy-to-use Google Form where you can submit new slangs or update existing ones. Just fill in the slang, its meaning, and a usage example, and we’ll add it to the dataset!
+We’ve set up a Google Form where you can submit new slangs or update existing ones. Just fill in the slang, meaning, and a usage example.
 
-[Submit your slang via this Google Form link](your-google-form-link)
+📌 Submit here: **(Google Form Link)**
 
 ### Option 2: Create an Issue on GitHub (Intermediate Way)
-If you're a developer, interested in learning or familiar with GitHub, you can open an issue and tell me the slang you want to add. I’ll take care of the rest!
+If you're familiar with GitHub, you can open an issue and share the slang you want to add. A maintainer will handle the rest.
 
 ### Option 3: Pull Requests (Advanced Way)
-If you’re a developer, you can clone the repo and directly add slangs to the JSON dataset. Submit a pull request, and we’ll review and merge it.
+If you're a developer, you can clone the repo and directly add entries to the dataset file, then submit a pull request for review.
 
-## Dataset Format
+---
 
-The dataset is stored in a simple and structured JSON format. Each slang entry contains the following fields:
+## 📦 Dataset Format
 
-- **Slang**: The term in street Igbo.
-- **Meaning**: A brief description or translation of the slang.
-- **Example Usage**: A sentence showing how the slang is used.
+The dataset is stored in a simple and structured format. Each slang entry includes:
+
+- **Slang/Term**: The street slang word or phrase  
+- **Meaning**: A brief translation or explanation  
+- **Example Usage**: A sentence showing how it’s used  
 - **Category**: The type of slang (e.g., Greetings, Insults, etc.)
 
-We use this format to keep the dataset easy to understand and process for training machine learning models.
+This structure helps keep the dataset easy to understand and use for training machine learning models.
 
+---
+
+## 📜 License
+
+This repo currently uses the **MIT License**.
+
+✅ MIT is great for code, but datasets often use Creative Commons (CC BY / CC0).  
+A dataset license update may be added later depending on contributors and usage goals.
+
+---
+
+## ⭐ Maintainer
+
+Built and maintained by **Victor Nite**  
+Open to collaboration, contributors, and partnerships.
+
+---
+
+## ✨ Let’s Build Something Valuable
+
+Naija slang is culture.  
+Let’s preserve it and teach AI to understand it properly 🇳🇬🔥
