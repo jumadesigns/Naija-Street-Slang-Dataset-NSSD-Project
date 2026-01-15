@@ -1,0 +1,19 @@
+{
+  "required": ["id", "term", "meaning_en", "examples", "language", "category", "safety", "source", "created_at"],
+  "fields": {
+    "id": "string (unique, e.g. nssd_000001)",
+    "term": "string (slang term/phrase)",
+    "language": "array of language tags (pcm/en/ig/yo/ha/mix)",
+    "meaning_en": "string (clear English meaning)",
+    "meaning_local": "string (optional, Pidgin/local paraphrase)",
+    "examples": "array of objects: {text, translation_en (optional)}",
+    "category": "array of strings (must exist in categories.json)",
+    "register": "string (optional: street, casual, formal)",
+    "region": "array (optional: NG, Lagos, PH, Abuja, etc.)",
+    "polarity": "string (optional: positive/neutral/negative)",
+    "safety": "object {contains_slur, contains_profanity, adult_sexual, harassment}",
+    "notes": "string (optional)",
+    "source": "object {type, method, contributor (optional)}",
+    "created_at": "string (YYYY-MM-DD)"
+  }
+}
