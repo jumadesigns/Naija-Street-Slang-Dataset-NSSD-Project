@@ -252,8 +252,9 @@ def main():
     random.shuffle(instruction_rows)
     random.shuffle(chat_rows)
 
-    # Small eval sample (5% or at least 20)
-    eval_size = max(20, int(len(instruction_rows) * 0.05))
+    
+    # For small datasets, keep eval small but non-zero
+    eval_size = min(50, max(5, int(len(instruction_rows) * 0.1)))
     eval_rows = instruction_rows[:eval_size]
     train_rows = instruction_rows[eval_size:]
 
